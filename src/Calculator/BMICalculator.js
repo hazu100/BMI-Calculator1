@@ -3,11 +3,14 @@ import './BMICalculator.css';
 const BMICalculator = () => {
 
     return (
-        <div className='calWrapper'>
-            <input type='text' /><span>Height</span>
-            <input type='text' /><span>Weight</span>
-            <span>BMI</span><input type='text' />
-        </div>
+        <>
+            <h1>BMI Calculator</h1>
+            <div className='calWrapper'>
+                <input type='text' /><span>Height</span>
+                <input type='text' /><span>Weight</span>
+                <div className="bmi">BMI</div><input type='text' />
+            </div>
+        </>
     );
 
 }
