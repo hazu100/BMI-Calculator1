@@ -7,13 +7,19 @@ class BMICalculator extends Component {
         super(props);
         this.heightInput = React.createRef();
         this.weightInput = React.createRef();
+        this.nameInput = React.createRef();
         this.calculateBMI = this.calculateBMI.bind(this);
         this.state = {
-            calculatedBMIValue : null,
+            calculatedBMIValue: null,
         };
     }
 
     calculateBMI() {
+        const inputName = this.nameInput.current.value;
+        inputName.toLowerCase() === 'pooja' ? 
+        this.setState({
+            calculatedBMIValue : inputName.toUpperCase()+' is always overweight',
+        }) : 
         this.setState({
             calculatedBMIValue : this.weightInput.current.value/(this.heightInput.current.value*this.heightInput.current.value),
         });
@@ -24,10 +30,11 @@ class BMICalculator extends Component {
             <>
                 <h1>BMI Calculator</h1>
                 <div className='calWrapper'>
-                    <input type='text' ref={this.heightInput} /><span>Height</span>
-                    <input type='text' ref={this.weightInput} /><span>Weight</span>
-                    <div className="bmi">BMI</div><input type='text' value={this.state.calculatedBMIValue}/>
-                    <input type='submit' value='Calculate BMI' onClick={this.calculateBMI}/>
+                    <input type='text' placeholder="Enter your First Name" ref={this.nameInput} /><span>First Name</span>
+                    <input type='text' placeholder="Enter your height in Meters" ref={this.heightInput} /><span>Height</span>
+                    <input type='text' placeholder="Enter your weight in KGs" ref={this.weightInput} /><span>Weight</span>
+                    <div className="bmi">BMI</div><textarea value={this.state.calculatedBMIValue}/>
+                    <div><input type='submit' value='Calculate BMI' onClick={this.calculateBMI}/></div>
                 </div>
             </>
         );
