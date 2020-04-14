@@ -1,5 +1,5 @@
 {
-  "homepage": "https://hazu100.github.io/BMI-Calculator/",
+  "homepage": "https://hazu100.github.io/BMI-Calculator1/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -27,7 +27,7 @@
       ">0.2%",
       "not dead",
       "not op_mini all"
-    ],
+    ], 
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

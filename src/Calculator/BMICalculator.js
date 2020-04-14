@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './BMICalculator.css';
+import Food from '../Pili.jpg';
 
 class BMICalculator extends Component {
 
@@ -18,10 +19,10 @@ class BMICalculator extends Component {
         
         const inputName = this.nameInput.current.value;
         if (inputName.toLowerCase()) {
-           if( inputName.toLowerCase().includes('piyali') || 
-            inputName.toLowerCase().includes('piyaii'))
+           if( inputName.toLowerCase() === 'piyali')
             {
                 alert("Piyali, Apni Hindi khub e valo bolen....................................................................... r amake fuchka khawaben na ? khawaben na fuchka amake ?\n\n\n Click on Ok to see your BMI");
+                this.props.getRef().current.style.backgroundImage = `url(${Food})`;
             } 
             
             inputName.toLowerCase().includes('piyali') || 
