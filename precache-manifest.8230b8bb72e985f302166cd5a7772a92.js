@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71088e2d6b8cb9e1eedbb8ae73bb7eaf",
+    "revision": "a066b5f24b00beb8b9b1c6947cc87440",
     "url": "/BMI-Calculator/index.html"
   },
   {
-    "revision": "2405f87b83bae14f1c71",
+    "revision": "f765da7e2edcd850c4f0",
     "url": "/BMI-Calculator/static/css/main.46705a05.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BMI-Calculator/static/js/2.fcb612a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2405f87b83bae14f1c71",
-    "url": "/BMI-Calculator/static/js/main.3bb183f5.chunk.js"
+    "revision": "f765da7e2edcd850c4f0",
+    "url": "/BMI-Calculator/static/js/main.4117d142.chunk.js"
   },
   {
     "revision": "590549fa1d6e71665153",
