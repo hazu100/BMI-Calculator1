@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './BMICalculator.css';
 import Food from '../Pili.jpg';
-import Fuchka from '../Fuchka.jpg';
-
+import track1 from '../ekla.mp3';
 class BMICalculator extends Component {
 
     constructor(props) {
@@ -23,11 +22,11 @@ class BMICalculator extends Component {
            if( inputName.toLowerCase() === 'piyali    ')
             {
                 alert("Piyali, Apni Hindi khub e valo bolen....................................................................... r amake fuchka khawaben na ? khawaben na fuchka amake ?\n\n\n Click on Ok to see your BMI");
-                   this.props.getRef().current.style.backgroundImage = `url(${Food})`;
+                this.props.getRef().current.style.backgroundImage = `url(${Food})`;
+                
             }
             else{
                 alert(`Hi ${inputName.toUpperCase()}, We have a surprise for you. Please click on OK button to proceed !`);
-                this.props.getRef().current.style.backgroundImage = `url(${Fuchka})`;
             } 
             
             inputName.toLowerCase() === 'piyali    ' ?
@@ -37,6 +36,8 @@ class BMICalculator extends Component {
                 this.setState({
                     calculatedBMIValue: this.weightInput.current.value / (this.heightInput.current.value * this.heightInput.current.value),
                 });
+        let audio = new Audio(track1);
+        audio.play();        
         }
     }
 
