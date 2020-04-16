@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/BMI-Calculator1/static/css/main.46705a05.chunk.css",
-    "main.js": "/BMI-Calculator1/static/js/main.da10e3fa.chunk.js",
-    "main.js.map": "/BMI-Calculator1/static/js/main.da10e3fa.chunk.js.map",
+    "main.js": "/BMI-Calculator1/static/js/main.d7e5312b.chunk.js",
+    "main.js.map": "/BMI-Calculator1/static/js/main.d7e5312b.chunk.js.map",
     "runtime-main.js": "/BMI-Calculator1/static/js/runtime-main.b8b23535.js",
     "runtime-main.js.map": "/BMI-Calculator1/static/js/runtime-main.b8b23535.js.map",
     "static/js/2.900f5988.chunk.js": "/BMI-Calculator1/static/js/2.900f5988.chunk.js",
     "static/js/2.900f5988.chunk.js.map": "/BMI-Calculator1/static/js/2.900f5988.chunk.js.map",
     "index.html": "/BMI-Calculator1/index.html",
-    "precache-manifest.53f3edf4b3e0564b85154d21d63c4200.js": "/BMI-Calculator1/precache-manifest.53f3edf4b3e0564b85154d21d63c4200.js",
+    "precache-manifest.effcc1ebe6d31e54a971db2ca71c9a0b.js": "/BMI-Calculator1/precache-manifest.effcc1ebe6d31e54a971db2ca71c9a0b.js",
     "service-worker.js": "/BMI-Calculator1/service-worker.js",
     "static/css/main.46705a05.chunk.css.map": "/BMI-Calculator1/static/css/main.46705a05.chunk.css.map",
     "static/js/2.900f5988.chunk.js.LICENSE.txt": "/BMI-Calculator1/static/js/2.900f5988.chunk.js.LICENSE.txt",
-    "static/media/Fuchka.jpg": "/BMI-Calculator1/static/media/Fuchka.06cd9f41.jpg",
-    "static/media/Pili.jpg": "/BMI-Calculator1/static/media/Pili.5c6ad1cc.jpg"
+    "static/media/Pili.jpg": "/BMI-Calculator1/static/media/Pili.5c6ad1cc.jpg",
+    "static/media/ekla.mp3": "/BMI-Calculator1/static/media/ekla.bebaf399.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.b8b23535.js",
     "static/js/2.900f5988.chunk.js",
     "static/css/main.46705a05.chunk.css",
-    "static/js/main.da10e3fa.chunk.js"
+    "static/js/main.d7e5312b.chunk.js"
   ]
 }
