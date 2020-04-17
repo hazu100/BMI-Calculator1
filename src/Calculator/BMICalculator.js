@@ -54,8 +54,10 @@ class BMICalculator extends Component {
                     <span className='row textBoxWrapper'>
                         <input className="gate" id="class" type="text" ref={this.weightInput} placeholder="Weight in Kgs" /><label for="class">Weight</label>
                     </span>
-                    <div className="bmi"><b>Your BMI is :</b></div><textarea rows="5" value={this.state.calculatedBMIValue} />
-                    <div><input type='submit' className="btn btn-success" value='Calculate BMI' onClick={this.calculateBMI} /></div>
+                </div>
+                <div>
+                    <div className="bmi"><b>Your BMI is :</b></div><textarea className="bmiResult" rows="3" value={this.state.calculatedBMIValue} />
+                    <div><input type='submit' className="btn btn-success" value='Calculate BMI' style ={{ width :"10rem"}} onClick={this.calculateBMI} /></div>
                 </div>
             </>
         );
