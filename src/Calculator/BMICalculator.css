@@ -1,8 +1,15 @@
 
 .bmi{
-    margin-top: 2rem;
+    margin-top: 10px;
 }
 
+.bmiResult{
+margin-bottom: 10px;
+}
+
+.calWrapper {
+    text-align: center;
+}
 .gate {
     display: inline-block;
     width: 215px;
@@ -67,7 +74,8 @@
 .textBoxWrapper {
     position: relative;
     display: inline-block;
-    margin: 30px 10px;
+    margin: 10px 10px;
+
 }
 .gate+label {
 display: inline-block;
