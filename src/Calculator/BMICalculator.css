@@ -1,14 +1,19 @@
-
 .bmi{
     margin-top: 10px;
 }
-
 .bmiResult{
 margin-bottom: 10px;
 }
-
 .calWrapper {
     text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+.textBoxWrapper {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
 }
 .gate {
     display: inline-block;
@@ -21,12 +26,11 @@ margin-bottom: 10px;
     border: 0;
     border-radius: 3px;
     outline: 0;
-    text-indent: 80px;
+    text-indent: 65px;
     transition: all .3s ease-in-out;
-}
-.label{
+  }
+   .gate + label {
     display: inline-block;
-    position: absolute;
     top: 0;
     left: 0;
     padding: 10px 15px;
@@ -37,26 +41,8 @@ margin-bottom: 10px;
     border-bottom-left-radius: 3px;
     transform-origin: left bottom;
     z-index: 99;
-}
-
-.gate + label:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    /* right: 0; */
-    bottom: 0;
-    left: 0;
-    border-radius: 3px;
-    /* background: #377D6A; */
-    transform-origin: left bottom;
-    transition: all .4s ease-in-out;
-    pointer-events: none;
-    /* z-index: -1; */
-    background: rgba(3, 36, 41, 0.2);
-    z-index: -2;
-    right: 20%;
-}
-.gate + label:after {
+  }
+  .gate + label:before, .gate + label:after {
     content: "";
     position: absolute;
     top: 0;
@@ -69,25 +55,20 @@ margin-bottom: 10px;
     transition: all .4s ease-in-out;
     pointer-events: none;
     z-index: -1;
-}
-
-.textBoxWrapper {
-    position: relative;
-    display: inline-block;
-    margin: 10px 10px;
-
-}
-.gate+label {
-display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 15px;
-    text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
-    background: #7AB893;
-    transition: all .4s ease-in-out;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    transform-origin: left bottom;
-    z-index: 99;
-}
+  }
+  .gate + label:before {
+    background: rgba(3, 36, 41, 0.2);
+    z-index: -2;
+    right: 20%;
+  }
+  
+  .gate:focus + label,
+  .gate:active + label {
+    transform: rotate(-66deg);
+    border-radius: 3px;
+  }
+  .gate:focus + label:before,
+  .gate:active + label:before {
+    transform: rotate(10deg);
+  }
+  
