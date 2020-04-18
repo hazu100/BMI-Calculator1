@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8673a1c3f6362ff5670d15848d4b23d",
+    "revision": "56079aea3aec0649fdfc7d8917c80ca4",
     "url": "/BMI-Calculator1/index.html"
   },
   {
-    "revision": "68f691331a6b4306f05f",
+    "revision": "95a64dcc25fa59cdeb86",
     "url": "/BMI-Calculator1/static/css/main.6398d735.chunk.css"
   },
   {
-    "revision": "498ab2ed82eb7e265f52",
-    "url": "/BMI-Calculator1/static/js/2.900f5988.chunk.js"
+    "revision": "a0fd28afc527c6e5582e",
+    "url": "/BMI-Calculator1/static/js/2.abdd67e9.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/BMI-Calculator1/static/js/2.900f5988.chunk.js.LICENSE.txt"
+    "url": "/BMI-Calculator1/static/js/2.abdd67e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68f691331a6b4306f05f",
-    "url": "/BMI-Calculator1/static/js/main.2e7ca43c.chunk.js"
+    "revision": "95a64dcc25fa59cdeb86",
+    "url": "/BMI-Calculator1/static/js/main.9f14e0fc.chunk.js"
   },
   {
     "revision": "cf03f0baa3ddc66ddb9c",
     "url": "/BMI-Calculator1/static/js/runtime-main.b8b23535.js"
-  },
-  {
-    "revision": "5c6ad1cc8c0855a6e9a334194e80396a",
-    "url": "/BMI-Calculator1/static/media/Pili.5c6ad1cc.jpg"
   },
   {
     "revision": "bebaf399303ec269bc7e2e702279a766",
