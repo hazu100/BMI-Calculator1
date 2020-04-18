@@ -45,13 +45,13 @@ class BMICalculator extends Component {
             <>
                 <h1>BMI Calculator</h1>
                 <div className='calWrapper'>
-                    <span className='row textBoxWrapper'>
+                    <span className='textBoxWrapper'>
                         <input className="gate" id="class" ref={this.nameInput} type="text" placeholder="First Name" /><label for="class">Name</label>
                     </span>
-                    <span className='row textBoxWrapper'>
+                    <span className='textBoxWrapper'>
                         <input className="gate" id="class" type="text" ref={this.heightInput} placeholder="Height in Meters" /><label for="class">Height</label>
                     </span>
-                    <span className='row textBoxWrapper'>
+                    <span className='textBoxWrapper'>
                         <input className="gate" id="class" type="text" ref={this.weightInput} placeholder="Weight in Kgs" /><label for="class">Weight</label>
                     </span>
                 </div>
