@@ -27,7 +27,7 @@ class BMICalculator extends Component {
         }
         inputName.toLowerCase() === 'piyali     ' ?	
                 this.setState({	
-                    calculatedBMIValue: 'Hi Piyali, you do not need to check your BMI. Just go though these beautiful lines.......You are the cutest..I like the way you smile...I like your mentality...I love your personality...I like the way you counter me ...ha ha ha...The innocent child inside me wants to swim in your dimples...And I like the way you utter TAARPOR while smiling...Do not think too much...Always remain like this..And pray with me so that this Corona goes away from our beautiful planet and everyone can come back into normla life .... '	
+                    calculatedBMIValue: 'Hi Piyali, you do not need to check your BMI. Just go through these beautiful lines.......You are the cutest. I like the way you smile. You have an awesome personality and an appreciable menality. You are sweeter than roshogollar rosh. Even ghoti barir ranna is less sweet in comparison with your sweetness. The innocent child inside me wants to swim in your dimples. And what can I say about your TAARPOR!. Always remain like this. Pray with me so that this Corona goes away from our beautiful planet and everyone can come back into normla life .... '	
                 }):
         
         this.setState({
