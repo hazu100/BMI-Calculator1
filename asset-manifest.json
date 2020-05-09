@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/BMI-Calculator1/static/css/main.60d1b459.chunk.css",
-    "main.js": "/BMI-Calculator1/static/js/main.9f14e0fc.chunk.js",
-    "main.js.map": "/BMI-Calculator1/static/js/main.9f14e0fc.chunk.js.map",
+    "main.js": "/BMI-Calculator1/static/js/main.ed135fb4.chunk.js",
+    "main.js.map": "/BMI-Calculator1/static/js/main.ed135fb4.chunk.js.map",
     "runtime-main.js": "/BMI-Calculator1/static/js/runtime-main.b8b23535.js",
     "runtime-main.js.map": "/BMI-Calculator1/static/js/runtime-main.b8b23535.js.map",
-    "static/js/2.abdd67e9.chunk.js": "/BMI-Calculator1/static/js/2.abdd67e9.chunk.js",
-    "static/js/2.abdd67e9.chunk.js.map": "/BMI-Calculator1/static/js/2.abdd67e9.chunk.js.map",
+    "static/js/2.900f5988.chunk.js": "/BMI-Calculator1/static/js/2.900f5988.chunk.js",
+    "static/js/2.900f5988.chunk.js.map": "/BMI-Calculator1/static/js/2.900f5988.chunk.js.map",
     "index.html": "/BMI-Calculator1/index.html",
-    "precache-manifest.8610d878421f1e7a76d884925e69ddb6.js": "/BMI-Calculator1/precache-manifest.8610d878421f1e7a76d884925e69ddb6.js",
+    "precache-manifest.10de04ab39a4b421f9145076f132be24.js": "/BMI-Calculator1/precache-manifest.10de04ab39a4b421f9145076f132be24.js",
     "service-worker.js": "/BMI-Calculator1/service-worker.js",
     "static/css/main.60d1b459.chunk.css.map": "/BMI-Calculator1/static/css/main.60d1b459.chunk.css.map",
-    "static/js/2.abdd67e9.chunk.js.LICENSE.txt": "/BMI-Calculator1/static/js/2.abdd67e9.chunk.js.LICENSE.txt",
+    "static/js/2.900f5988.chunk.js.LICENSE.txt": "/BMI-Calculator1/static/js/2.900f5988.chunk.js.LICENSE.txt",
+    "static/media/Pili.jpg": "/BMI-Calculator1/static/media/Pili.5c6ad1cc.jpg",
     "static/media/ekla.mp3": "/BMI-Calculator1/static/media/ekla.bebaf399.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.b8b23535.js",
-    "static/js/2.abdd67e9.chunk.js",
+    "static/js/2.900f5988.chunk.js",
     "static/css/main.60d1b459.chunk.css",
-    "static/js/main.9f14e0fc.chunk.js"
+    "static/js/main.ed135fb4.chunk.js"
   ]
 }
